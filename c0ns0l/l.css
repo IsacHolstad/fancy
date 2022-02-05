@@ -1,26 +1,51 @@
 body {
   margin: 0 auto;
   padding: 0 auto;
+  background-color: gray;
 }
 .loading {
   position: relative;
   text-align: center;
+  color: aliceblue;
 }
 .btn {
   position: absolute;
   margin: 0;
   right: 42%;
   color: white;
-  background-color: black;
+  background-color: rgb(54, 54, 54);
   width: 100px;
   height: 30px;
   border-radius: 3px;
   font-weight: bold;
 }
-.giphy-embed {
-  position: relative;
-  top: 50px;
 
-  justify-content: center;
+.welcome {
+  position: relative;
+  background-color: darkgray;
+  height: 35px;
   width: 100%;
+  font-variant-caps: all-petite-caps;
+  text-align: center;
+  top: 60px;
+  font-size: 30px;
+  background-image: linear-gradient(
+    90deg,
+    #eeeeee 0%,
+    #eeeeee 40%,
+    #dddddd 50%,
+    #dddddd 55%,
+    #eeeeee 65%,
+    #eeeeee 100%
+  );
+  background-size: 400%;
+  animation: shimmer 1300ms infinite;
+}
+@keyframes shimmer {
+  from {
+    background-position: 100% 100%;
+  }
+  to {
+    background-position: 0 0;
+  }
 }
