@@ -7,6 +7,6 @@ setTimeout(function(){
 
 const button = document.querySelector(".btn");
 setTimeout(function() {
-    button.innerHTML = "HACKED"
-    
+    button.innerHTML = "Hey"
+
 }, 400)
